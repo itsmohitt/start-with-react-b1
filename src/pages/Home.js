@@ -25,12 +25,7 @@ class Home extends React.PureComponent {
         } else {
             this.props.history.push(`/${username}`);
         }
-        // axios.get('https://api.github.com/users/'+username).then(function(response){
-        //     console.log(response);
-        // }).catch(function (error) {
-        //     // handle error
-        //     console.log(error);
-        // })
+
     }
 
     render() {
